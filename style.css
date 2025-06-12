@@ -1,0 +1,24 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.newPara{
+    color: white;
+    background-color: blue;
+}
+
+.para{
+    color: white;
+    background-color: red;
+}
+.darkmode{
+    background-color: black;
+    color: white;
+}
+.lightmode{
+    background-color: white;
+    color: black;
+}
