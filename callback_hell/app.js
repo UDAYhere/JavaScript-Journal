@@ -2,21 +2,36 @@
 
 let h=document.querySelector("h1")
 
-function chnageColor(color, time, callback){
-    setTimeout(() => {
-        h.style.color=color;
-        if(callback) callback();
-    }, time)
-}
+// function chnageColor(color, time, callback){
+//     setTimeout(() => {
+//         h.style.color=color;
+//         if(callback) callback();
+//     }, time)
+// }
 
-chnageColor("red", 1000, () => {
-    chnageColor("blue", 1000, () => {
-        chnageColor("green", 1000, () => {
-            chnageColor("black", 1000);
-        });
-    });
-});
+// chnageColor("red", 1000, () => {
+//     chnageColor("blue", 1000, () => {
+//         chnageColor("green", 1000, () => {
+//             chnageColor("black", 1000);
+//         });
+//     });
+// });
 
 // here i am calling the function chnageColor multiple times with a callback function. This is known as callback hell. It is difficult to read and maintain this code.
 // To avoid this we can use promises and async/await.
+
+// now we will try to do it with the help of promises
+function changeColorPromise(color, time) {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            h.style.color = color;
+            resolve();
+        }, time);
+    });
+}
+
+changeColorPromise("red", 1000)
+    .then(() => changeColorPromise("blue", 1000))
+    .then(() => changeColorPromise("green", 1000))
+    .then(() => changeColorPromise("black", 1000));
 
