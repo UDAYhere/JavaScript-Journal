@@ -2,6 +2,8 @@
 
 let h=document.querySelector("h1")
 
+
+
 // function chnageColor(color, time, callback){
 //     setTimeout(() => {
 //         h.style.color=color;
@@ -16,6 +18,8 @@ let h=document.querySelector("h1")
 //         });
 //     });
 // });
+
+
 
 // here i am calling the function chnageColor multiple times with a callback function. This is known as callback hell. It is difficult to read and maintain this code.
 // To avoid this we can use promises and async/await.
