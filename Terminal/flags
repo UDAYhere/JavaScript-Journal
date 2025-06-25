@@ -1,0 +1,10 @@
+flags are the commands that we use to modify such that 
+
+->"ls -l"
+->"ls -a"
+
+-l and -a are the flags
+we can also combine the flags
+
+"ls -la"
+

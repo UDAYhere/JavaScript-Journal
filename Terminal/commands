@@ -1,0 +1,14 @@
+1. "ls"= list all files
+
+2. "pwd"= print working directory
+
+3. "clear"= clear screen 
+
+4."touch"= it is used to create and modify the time of the files that are in the folder
+
+there are also commands for deleting the files
+ 5."rm" use to delete the file 
+
+ 6."rmdir" to remove the directory which is empty
+
+ 7.to romver any folderwe use flags "-rf" full command is "rm -rf"

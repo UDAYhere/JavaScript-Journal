@@ -1,0 +1,11 @@
+-> the paths can be of two types absolute and relative paths 
+
+1. the absoulte path we can write anywhere in any directoryand it starts with a "/" it is the complete path for your desired directory or a folder in your system
+ex-"/users/uday/desktop/doc's"
+
+2. the relative path is totaly different and to change the directory here we should make sure that the desired directory should be in our current directory.
+ex-"desktop/doc's"
+
+also we have the cocpet of the root directory and the home directory.
+let's understand this.
+supose you buyed new laptop and windows is installed in that laptop and you have created several accounts there so the accounts that you have created is a home directory and the main is windows that is your root directory.

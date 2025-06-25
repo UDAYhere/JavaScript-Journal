@@ -1,0 +1,5 @@
+-->means going inside and outside of a directories
+
+1. we can go inside any directories with the help of the command "cd directory_name" or "cd dire_name dire_name"
+
+2. we can also come outside the directory with the hepl of the command "cd.." or "cd../.."
