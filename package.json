@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "figlet": "^1.8.1"
+  },
+  "name": "javascript-node-journal",
+  "version": "1.0.0",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "uday kumar",
+  "license": "ISC",
+  "description": ""
+}
