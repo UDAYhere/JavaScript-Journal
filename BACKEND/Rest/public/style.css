@@ -1,0 +1,21 @@
+*{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.post
+{
+    width: 80%;
+    height: 140px;
+    background-color: wheat;
+}
+h1{
+    text-align: center;
+    /* margin: 10px;? */
+    font-size: 40px;
+    
+}
+.ctnt{
+    text-align: center;
+   
+}

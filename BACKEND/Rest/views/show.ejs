@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Post in Detail</h1>
+    <h1>Post id: <%=post.id%></h1>
+     <div class="post">
+            <h2 class="user">@<%=post.username%></h2>
+            <p class="ctnt"><%=post.content%></p>
+            <a href="/posts/<%=post.id%>/edit">edit post</a>
+
+        </div>
+</body>
+</html>
